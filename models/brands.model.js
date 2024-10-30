@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const categriesSchema = new mongoose.Schema({
+const brandsSchema = new mongoose.Schema({
   title: {
     type: String,
     required: [true , "category title is required"],
@@ -11,4 +11,4 @@ const categriesSchema = new mongoose.Schema({
   },
 })
 
-module.exports = mongoose.model('Category', categriesSchema);
+module.exports = mongoose.model('Brand', brandsSchema);

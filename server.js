@@ -19,6 +19,8 @@ if(process.env.NODE_ENV === 'development'){
 }
 
 app.use('/api/categories', require('./routes/categories.route'));
+app.use('/api/brands', require('./routes/brands.route'));
+app.use('/api/products', require('./routes/products.route'));
 
 app.all("*", (req , res , next) => {
   next(new ApiError(`can't find this route ${req.originalUrl}` , 400));
