@@ -1,5 +1,11 @@
 const Category = require("../models/categories.model");
 const asyncHandler = require("express-async-handler");
+const {
+  buildFilter,
+  buildSort,
+  buildFields,
+  buildKeywordSearch,
+} = require("../utils/apiFeatures");
 
 /**
  *  @desc    create a new category
@@ -21,8 +27,30 @@ exports.createCategory = asyncHandler(async (req , res)=>{
  *  @access  public
  */
 exports.getCategories = asyncHandler(async (req , res)=>{
-  const categories = await Category.find({});
-  res.json({ results: categories.length, data: categories });
+  const { page = 1, limit = 5, sort, fields, keyword, ...filters } = req.query;
+
+  // Build query string
+  const queryStr = buildFilter(filters);
+
+  // Pagination
+  const skip = (page - 1) * limit;
+
+  let mongooseQuery = Category.find(JSON.parse(queryStr))
+    .skip(skip)
+    .limit(limit);
+
+  // Sorting
+  mongooseQuery = mongooseQuery.sort(buildSort(sort));
+
+  // Field limiting
+  mongooseQuery = mongooseQuery.select(buildFields(fields));
+
+  if (keyword) {
+    mongooseQuery = mongooseQuery.find(buildKeywordSearch(keyword));
+  }
+
+  const category = await mongooseQuery;
+  res.json({ results: category.length, page, data: category });
 });
 
 /**

@@ -74,10 +74,10 @@ const productSchema = new mongoose.Schema(
 productSchema.pre(/^find/, function (next) {
   this.populate({
     path: 'category',
-    select: 'name -_id',
+    select: 'title -_id',
   }).populate({
     path: 'brand',
-    select: 'name -_id',
+    select: 'title -_id',
   });
   next();
 });

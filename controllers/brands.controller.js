@@ -1,6 +1,12 @@
 const Brands = require("../models/brands.model");
 const asyncHandler = require("express-async-handler");
 const ApiError = require("../utils/apiError");
+const {
+  buildFilter,
+  buildSort,
+  buildFields,
+  buildKeywordSearch,
+} = require("../utils/apiFeatures");
 
 /**
  *  @desc    create a new brand
@@ -22,8 +28,31 @@ exports.createBrand = asyncHandler(async (req, res) => {
  *  @access  public
  */
 exports.getAllBrands = asyncHandler(async (req , res)=>{
-  const brands = await Brands.find({});
-  res.json({ results: brands.length, data: brands });
+  const { page = 1, limit = 5, sort, fields, keyword, ...filters } = req.query;
+
+  // Build query string
+  const queryStr = buildFilter(filters);
+
+  // Pagination
+  const skip = (page - 1) * limit;
+
+  let mongooseQuery = Brands.find(JSON.parse(queryStr))
+    .skip(skip)
+    .limit(limit)
+    
+
+  // Sorting
+  mongooseQuery = mongooseQuery.sort(buildSort(sort));
+
+  // Field limiting
+  mongooseQuery = mongooseQuery.select(buildFields(fields));
+
+  if (keyword) {
+    mongooseQuery = mongooseQuery.find(buildKeywordSearch(keyword));
+  }
+
+  const brands = await mongooseQuery;
+  res.json({ results: brands.length, page, data: brands });
 });
 
 /**

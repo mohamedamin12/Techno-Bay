@@ -1,7 +1,12 @@
 const asyncHandler = require("express-async-handler");
 const Product = require("../models/products.model");
 const ApiError = require("../utils/apiError");
-
+const {
+  buildFilter,
+  buildSort,
+  buildFields,
+  buildKeywordSearch,
+} = require("../utils/apiFeatures");
 /**
  *  @desc    create a new product
  *  @route   /api/product
@@ -18,12 +23,34 @@ exports.createProduct = asyncHandler(async (req, res) => {
  *  @desc    get all products
  *  @route   /api/products
  *  @method  POST
- *  @access  public 
+ *  @access  public
  */
 exports.getProducts = asyncHandler(async (req, res) => {
-  const products = await Product.find({});
-  res.json({ results: products.length, data: products });
-})
+  const { page = 1, limit = 5, sort, fields, keyword, ...filters } = req.query;
+
+  // Build query string
+  const queryStr = buildFilter(filters);
+
+  // Pagination
+  const skip = (page - 1) * limit;
+
+  let mongooseQuery = Product.find(JSON.parse(queryStr))
+    .skip(skip)
+    .limit(limit)
+
+  // Sorting
+  mongooseQuery = mongooseQuery.sort(buildSort(sort));
+
+  // Field limiting
+  mongooseQuery = mongooseQuery.select(buildFields(fields));
+
+  if (keyword) {
+    mongooseQuery = mongooseQuery.find(buildKeywordSearch(keyword));
+  }
+
+  const products = await mongooseQuery;
+  res.json({ results: products.length, page, data: products });
+});
 
 /**
  *  @desc    get one product
@@ -33,8 +60,8 @@ exports.getProducts = asyncHandler(async (req, res) => {
  */
 exports.getProduct = asyncHandler(async (req, res, next) => {
   const { id } = req.params;
-  
-  const product = await Product.findById(id)
+
+  const product = await Product.findById(id);
 
   if (!product) {
     return next(new ApiError(`No product for this id ${id}`, 404));
