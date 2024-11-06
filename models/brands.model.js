@@ -9,6 +9,13 @@ const brandsSchema = new mongoose.Schema({
     minlength: [3, 'Too short category name'],
     maxlength: [32, 'Too long category name'],
   },
+  image: {
+    type: Object,
+    default: {
+      url: { type: String, required: true },
+      publicId: null,
+    },
+  },
 })
 
 module.exports = mongoose.model('Brand', brandsSchema);

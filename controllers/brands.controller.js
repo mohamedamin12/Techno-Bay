@@ -1,12 +1,17 @@
 const Brands = require("../models/brands.model");
 const asyncHandler = require("express-async-handler");
 const ApiError = require("../utils/apiError");
+const fs = require("fs");
+const path = require("path");
+
+
 const {
   buildFilter,
   buildSort,
   buildFields,
   buildKeywordSearch,
 } = require("../utils/apiFeatures");
+const { cloudinaryUploadImage } = require("../utils/cloudinary");
 
 /**
  *  @desc    create a new brand
@@ -14,11 +19,32 @@ const {
  *  @method  POST
  *  @access  private
  */
-exports.createBrand = asyncHandler(async (req, res) => {
+exports.createBrand = asyncHandler(async (req, res, next) => {
   const { title } = req.body;
-  const newBrand = new Brands({ title });
+
+  let imageUrl = null;
+  let imagePublicId = null;
+
+  const imagePath = path.join(__dirname, `../images/${req.file.filename}`);
+
+  if (req.file) {
+    const upload = await cloudinaryUploadImage(imagePath);
+    imageUrl = upload.secure_url;
+    imagePublicId = upload.public_id;
+  }
+
+  const newBrand = new Brands({
+    title,
+    image: { url: imageUrl, publicId: imagePublicId },
+  });
+
   await newBrand.save();
-  res.status(201).json(newBrand);
+
+  res.status(201).json({
+    message: "Brand created successfully",
+    data: newBrand,
+  });
+  fs.unlinkSync(imagePath);
 });
 
 /**
@@ -27,7 +53,7 @@ exports.createBrand = asyncHandler(async (req, res) => {
  *  @method  GET
  *  @access  public
  */
-exports.getAllBrands = asyncHandler(async (req , res)=>{
+exports.getAllBrands = asyncHandler(async (req, res) => {
   const { page = 1, limit = 5, sort, fields, keyword, ...filters } = req.query;
 
   // Build query string
@@ -36,10 +62,7 @@ exports.getAllBrands = asyncHandler(async (req , res)=>{
   // Pagination
   const skip = (page - 1) * limit;
 
-  let mongooseQuery = Brands.find(JSON.parse(queryStr))
-    .skip(skip)
-    .limit(limit)
-    
+  let mongooseQuery = Brands.find(JSON.parse(queryStr)).skip(skip).limit(limit);
 
   // Sorting
   mongooseQuery = mongooseQuery.sort(buildSort(sort));
@@ -61,10 +84,10 @@ exports.getAllBrands = asyncHandler(async (req , res)=>{
  *  @method  GET
  *  @access  public
  */
-exports.getBrand = asyncHandler(async (req, res , next) => {
+exports.getBrand = asyncHandler(async (req, res, next) => {
   const brand = await Brands.findById(req.params.id);
   if (!brand) {
-    return next(new ApiError(`No Brand for this id ${id}`, 404))
+    return next(new ApiError(`No Brand for this id ${id}`, 404));
   }
   res.json(brand);
 });
@@ -75,12 +98,12 @@ exports.getBrand = asyncHandler(async (req, res , next) => {
  *  @method  PUT
  *  @access  private
  */
-exports.updateBrand = asyncHandler(async (req, res , next) => {
+exports.updateBrand = asyncHandler(async (req, res, next) => {
   const brand = await Brands.findByIdAndUpdate(req.params.id, req.body, {
     new: true,
   });
   if (!brand) {
-    return next(new ApiError(`No brand for this id ${id}`, 404))
+    return next(new ApiError(`No brand for this id ${id}`, 404));
   }
   res.json(brand);
 });
@@ -91,10 +114,10 @@ exports.updateBrand = asyncHandler(async (req, res , next) => {
  *  @method  DELETE
  *  @access  private
  */
-exports.deleteBrand = asyncHandler(async (req, res , next) => {
+exports.deleteBrand = asyncHandler(async (req, res, next) => {
   const brand = await Brands.findByIdAndDelete(req.params.id);
   if (!brand) {
-    return next(new ApiError(`No Brand for this id ${id}`, 404))
+    return next(new ApiError(`No Brand for this id ${id}`, 404));
   }
   res.status(204).send();
 });

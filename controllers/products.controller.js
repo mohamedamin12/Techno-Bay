@@ -1,22 +1,41 @@
 const asyncHandler = require("express-async-handler");
 const Product = require("../models/products.model");
 const ApiError = require("../utils/apiError");
+const fs = require("fs");
+
 const {
   buildFilter,
   buildSort,
   buildFields,
   buildKeywordSearch,
 } = require("../utils/apiFeatures");
+const { cloudinaryUploadImage } = require("../utils/cloudinary");
+
 /**
  *  @desc    create a new product
  *  @route   /api/product
  *  @method  POST
  *  @access  private
  */
-exports.createProduct = asyncHandler(async (req, res) => {
-  const newProduct = new Product(req.body);
-  await newProduct.save();
-  res.status(201).json(newProduct);
+exports.createProduct = asyncHandler(async (req, res, next) => {
+  const uploadedImages = [];
+
+  for (const file of req.files) {
+    const upload = await cloudinaryUploadImage(file.path);
+    uploadedImages.push({
+      url: upload.secure_url,
+      publicId: upload.public_id,
+    });
+  }
+  req.body.images = uploadedImages;
+
+  const product = await Product.create(req.body);
+
+  req.files.forEach((file) => fs.unlinkSync(file.path));
+
+  res
+    .status(201)
+    .json({ message: "Product created successfully", data: product });
 });
 
 /**
@@ -36,7 +55,7 @@ exports.getProducts = asyncHandler(async (req, res) => {
 
   let mongooseQuery = Product.find(JSON.parse(queryStr))
     .skip(skip)
-    .limit(limit)
+    .limit(limit);
 
   // Sorting
   mongooseQuery = mongooseQuery.sort(buildSort(sort));

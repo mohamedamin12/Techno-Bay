@@ -1,4 +1,6 @@
 const router = require("express").Router();
+const upload = require("../middlewares/photoUpload.middleware");
+
 const {
   getProductValidator,
   createProductValidator,
@@ -14,7 +16,10 @@ const {
   deleteProduct,
 } = require("../controllers/products.controller");
 
-router.route("/").get(getProducts).post(createProductValidator, createProduct);
+router
+  .route("/")
+  .get(getProducts)
+  .post(upload.array("images", 5), createProductValidator, createProduct);
 router
   .route("/:id")
   .get(getProductValidator, getProduct)

@@ -1,5 +1,7 @@
 const router = require("express").Router();
 const brandController = require("../controllers/brands.controller");
+const upload = require("../middlewares/photoUpload.middleware");
+
 
 const {
   getBrandValidator,
@@ -11,7 +13,7 @@ const {
 router
   .route("/")
   .get( brandController.getAllBrands)
-  .post(createBrandValidator, brandController.createBrand);
+  .post(upload.single("image") ,createBrandValidator, brandController.createBrand);
 
 router
   .route("/:id")
