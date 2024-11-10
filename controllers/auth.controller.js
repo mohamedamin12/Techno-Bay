@@ -1,11 +1,12 @@
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
+const crypto = require("crypto");
 const asyncHandler = require("express-async-handler");
+
 const ApiError = require("../utils/apiError");
 const User = require("../models/user.model");
 const createToken = require("../utils/createToken");
 const sendEmail = require("../utils/sendEmail");
-const crypto = require("crypto");
 
 //* Helper function to hash password
 const hashPassword = async (password) => await bcrypt.hash(password, 10);

@@ -16,6 +16,10 @@ const {
   deleteProduct,
 } = require("../controllers/products.controller");
 
+const reviewsRoute = require('./review.route');
+
+router.use('/:productId/reviews', reviewsRoute);
+
 router
   .route("/")
   .get(getProducts)

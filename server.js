@@ -1,10 +1,14 @@
 require('dotenv').config()
 const express = require('express');
 const morgan = require('morgan');
-const port = process.env.PORT || 7777;
 const connectDB = require('./config/connectDB');
 const ApiError = require('./utils/apiError');
 const globalError = require('./middlewares/error.middleware');
+
+const port = process.env.PORT || 7777;
+
+// Routes
+const mountRoutes = require('./routes/main');
 
 connectDB();
 
@@ -18,11 +22,10 @@ if(process.env.NODE_ENV === 'development'){
   console.log(`mode : ${process.env.NODE_ENV}`);
 }
 
-app.use('/api/categories', require('./routes/categories.route'));
-app.use('/api/brands', require('./routes/brands.route'));
-app.use('/api/products', require('./routes/products.route'));
-app.use('/api/auth', require('./routes/auth.route'));
-app.use('/api/users', require('./routes/user.route'));
+// Mount Routes
+mountRoutes(app);
+
+
 
 app.all("*", (req , res , next) => {
   next(new ApiError(`can't find this route ${req.originalUrl}` , 400));

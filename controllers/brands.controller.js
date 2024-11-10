@@ -1,8 +1,8 @@
-const Brands = require("../models/brands.model");
 const asyncHandler = require("express-async-handler");
-const ApiError = require("../utils/apiError");
 const fs = require("fs");
 const path = require("path");
+const Brands = require("../models/brands.model");
+const ApiError = require("../utils/apiFeatures");
 
 
 const {

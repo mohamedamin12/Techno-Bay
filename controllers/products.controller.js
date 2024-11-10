@@ -1,8 +1,10 @@
+/* eslint-disable no-await-in-loop */
+/* eslint-disable no-restricted-syntax */
 const asyncHandler = require("express-async-handler");
-const Product = require("../models/products.model");
-const ApiError = require("../utils/apiError");
 const fs = require("fs");
 
+const Product = require("../models/products.model");
+const ApiError = require("../utils/apiError");
 const {
   buildFilter,
   buildSort,
@@ -80,7 +82,10 @@ exports.getProducts = asyncHandler(async (req, res) => {
 exports.getProduct = asyncHandler(async (req, res, next) => {
   const { id } = req.params;
 
-  const product = await Product.findById(id);
+  const product = await Product.findById(id).populate({
+    path: "reviews",
+    select: "title ratings -_id -product",
+  });;
 
   if (!product) {
     return next(new ApiError(`No product for this id ${id}`, 404));
