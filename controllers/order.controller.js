@@ -1,4 +1,4 @@
-// const stripe = require('stripe')(process.env.STRIPE_SECRET);
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const asyncHandler = require('express-async-handler');
 const ApiError = require('../utils/apiError');
 // const User = require('../models/user.model');
@@ -103,3 +103,58 @@ exports.updateOrderToDelivered  = asyncHandler(async (req, res, next) => {
 
   res.status(200).json({ status: 'success', data: updatedOrder });
 });
+
+/**
+ *  @desc    Get checkout session from stripe and send it as response
+ *  @route   /api/order/checkout-session/:cartId
+ *  @method  PUT 
+ *  @access  private (logged in user)
+ */
+exports.checkoutSession = asyncHandler(async (req , res , next)=>{
+   // app settings
+   const taxPrice = 0;
+   const shippingPrice = 0;
+ 
+   // Get cart depend on cartId
+   const cart = await Cart.findById(req.params.cartId);
+   if (!cart) {
+     return next(
+       new ApiError(`There is no such cart with id ${req.params.cartId}`, 404)
+     );
+   }
+ 
+   // Get order price depend on cart price "Check if coupon apply"
+   const cartPrice = cart.totalPriceAfterDiscount
+     ? cart.totalPriceAfterDiscount
+     : cart.totalCartPrice;
+ 
+   const totalOrderPrice = cartPrice + taxPrice + shippingPrice;
+
+     // Create stripe checkout session
+     const session = await stripe.checkout.sessions.create({
+      payment_method_types: ['card'],
+      line_items: [
+        {
+          price_data: {
+            currency: 'egp',
+            product_data: {
+              name: `Order from ${req.user.username}`,
+            },
+            unit_amount: totalOrderPrice * 100,
+          },
+          quantity: 1,
+        },
+      ],
+      mode: 'payment',
+      success_url: `${req.protocol}://${req.get('host')}/order`,
+      cancel_url: `${req.protocol}://${req.get('host')}/cart`,
+      customer_email: req.user.email,
+      client_reference_id: req.params.cartId,
+      metadata: {
+        shipping_address: JSON.stringify(req.body.shippingAddress)
+      },
+    });
+  
+    // send session to response
+    res.status(200).json({ status: 'success', session });
+})
