@@ -85,7 +85,7 @@ exports.getProduct = asyncHandler(async (req, res, next) => {
   const product = await Product.findById(id).populate({
     path: "reviews",
     select: "title ratings -_id -product",
-  });;
+  });
 
   if (!product) {
     return next(new ApiError(`No product for this id ${id}`, 404));

@@ -41,7 +41,7 @@ const productSchema = new mongoose.Schema(
     category: {
       type: mongoose.Schema.ObjectId,
       ref: 'Category',
-      required: [true, 'Product must be belong to category'],
+      required: [true, 'Product must belong to category'],
     },
     brand: {
       type: mongoose.Schema.ObjectId,
@@ -56,12 +56,15 @@ const productSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    specifications: {
+      type: Map,
+      of: String,
+    },
   },
   { 
     timestamps: true,
     toJSON: { virtuals: true },
     toObject: { virtuals: true }, 
-
   }
 );
 
