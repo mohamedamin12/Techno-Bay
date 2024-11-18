@@ -1,0 +1,602 @@
+[
+  {
+    "title": "Canon EOS R5",
+    "description": "A high-performance camera with excellent features and sleek design. The Canon EOS R5 is perfect for enthusiasts and professionals alike.",
+    "quantity": 15,
+    "sold": 0,
+    "price": 500,
+    "priceAfterDiscount": 480,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/canon_eos_r5.jpg",
+            "publicId": "canon_eos_r5"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b52e76352973c753e71cb",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 10,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "24MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Nikon Z9",
+    "description": "A high-performance camera with excellent features and sleek design. The Nikon Z9 is perfect for enthusiasts and professionals alike.",
+    "quantity": 16,
+    "sold": 1,
+    "price": 550,
+    "priceAfterDiscount": 525,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/nikon_z9.jpg",
+            "publicId": "nikon_z9"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b530e6352973c753e71cd",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 13,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "25MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Sony Alpha 7 IV",
+    "description": "A high-performance camera with excellent features and sleek design. The Sony Alpha 7 IV is perfect for enthusiasts and professionals alike.",
+    "quantity": 17,
+    "sold": 2,
+    "price": 600,
+    "priceAfterDiscount": 570,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/sony_alpha_7_iv.jpg",
+            "publicId": "sony_alpha_7_iv"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b531f6352973c753e71cf",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 16,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "26MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Fujifilm X-T5",
+    "description": "A high-performance camera with excellent features and sleek design. The Fujifilm X-T5 is perfect for enthusiasts and professionals alike.",
+    "quantity": 18,
+    "sold": 3,
+    "price": 650,
+    "priceAfterDiscount": 615,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/fujifilm_x-t5.jpg",
+            "publicId": "fujifilm_x-t5"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b532d6352973c753e71d1",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 19,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "27MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Panasonic Lumix GH6",
+    "description": "A high-performance camera with excellent features and sleek design. The Panasonic Lumix GH6 is perfect for enthusiasts and professionals alike.",
+    "quantity": 19,
+    "sold": 4,
+    "price": 700,
+    "priceAfterDiscount": 660,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/panasonic_lumix_gh6.jpg",
+            "publicId": "panasonic_lumix_gh6"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b533b6352973c753e71d3",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 22,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "24MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Olympus OM-D E-M1 Mark III",
+    "description": "A high-performance camera with excellent features and sleek design. The Olympus OM-D E-M1 Mark III is perfect for enthusiasts and professionals alike.",
+    "quantity": 15,
+    "sold": 5,
+    "price": 750,
+    "priceAfterDiscount": 705,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/olympus_om-d_e-m1_mark_iii.jpg",
+            "publicId": "olympus_om-d_e-m1_mark_iii"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b53586352973c753e71d5",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 25,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "25MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Leica Q2",
+    "description": "A high-performance camera with excellent features and sleek design. The Leica Q2 is perfect for enthusiasts and professionals alike.",
+    "quantity": 16,
+    "sold": 6,
+    "price": 800,
+    "priceAfterDiscount": 750,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/leica_q2.jpg",
+            "publicId": "leica_q2"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b53716352973c753e71d7",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 28,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "26MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "GoPro Hero 11",
+    "description": "A high-performance camera with excellent features and sleek design. The GoPro Hero 11 is perfect for enthusiasts and professionals alike.",
+    "quantity": 17,
+    "sold": 7,
+    "price": 850,
+    "priceAfterDiscount": 795,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/gopro_hero_11.jpg",
+            "publicId": "gopro_hero_11"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b537e6352973c753e71d9",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 31,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "27MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "DJI Pocket 2",
+    "description": "A high-performance camera with excellent features and sleek design. The DJI Pocket 2 is perfect for enthusiasts and professionals alike.",
+    "quantity": 18,
+    "sold": 8,
+    "price": 900,
+    "priceAfterDiscount": 840,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/dji_pocket_2.jpg",
+            "publicId": "dji_pocket_2"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b53906352973c753e71db",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 34,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "24MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Pentax K-3 Mark III",
+    "description": "A high-performance camera with excellent features and sleek design. The Pentax K-3 Mark III is perfect for enthusiasts and professionals alike.",
+    "quantity": 19,
+    "sold": 9,
+    "price": 950,
+    "priceAfterDiscount": 885,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/pentax_k-3_mark_iii.jpg",
+            "publicId": "pentax_k-3_mark_iii"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b53a16352973c753e71dd",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 37,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "25MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Canon EOS 90D",
+    "description": "A high-performance camera with excellent features and sleek design. The Canon EOS 90D is perfect for enthusiasts and professionals alike.",
+    "quantity": 15,
+    "sold": 10,
+    "price": 1000,
+    "priceAfterDiscount": 930,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/canon_eos_90d.jpg",
+            "publicId": "canon_eos_90d"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b52e76352973c753e71cb",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 40,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "26MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Nikon D850",
+    "description": "A high-performance camera with excellent features and sleek design. The Nikon D850 is perfect for enthusiasts and professionals alike.",
+    "quantity": 16,
+    "sold": 11,
+    "price": 1050,
+    "priceAfterDiscount": 975,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/nikon_d850.jpg",
+            "publicId": "nikon_d850"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b530e6352973c753e71cd",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 43,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "27MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Sony RX100 VII",
+    "description": "A high-performance camera with excellent features and sleek design. The Sony RX100 VII is perfect for enthusiasts and professionals alike.",
+    "quantity": 17,
+    "sold": 12,
+    "price": 1100,
+    "priceAfterDiscount": 1020,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/sony_rx100_vii.jpg",
+            "publicId": "sony_rx100_vii"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b531f6352973c753e71cf",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 46,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "24MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Fujifilm GFX 100S",
+    "description": "A high-performance camera with excellent features and sleek design. The Fujifilm GFX 100S is perfect for enthusiasts and professionals alike.",
+    "quantity": 18,
+    "sold": 13,
+    "price": 1150,
+    "priceAfterDiscount": 1065,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/fujifilm_gfx_100s.jpg",
+            "publicId": "fujifilm_gfx_100s"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b532d6352973c753e71d1",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 49,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "25MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Panasonic Lumix S5",
+    "description": "A high-performance camera with excellent features and sleek design. The Panasonic Lumix S5 is perfect for enthusiasts and professionals alike.",
+    "quantity": 19,
+    "sold": 14,
+    "price": 1200,
+    "priceAfterDiscount": 1110,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/panasonic_lumix_s5.jpg",
+            "publicId": "panasonic_lumix_s5"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b533b6352973c753e71d3",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 52,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "26MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Olympus Tough TG-6",
+    "description": "A high-performance camera with excellent features and sleek design. The Olympus Tough TG-6 is perfect for enthusiasts and professionals alike.",
+    "quantity": 15,
+    "sold": 15,
+    "price": 1250,
+    "priceAfterDiscount": 1155,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/olympus_tough_tg-6.jpg",
+            "publicId": "olympus_tough_tg-6"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b53586352973c753e71d5",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 55,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "27MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Leica SL2-S",
+    "description": "A high-performance camera with excellent features and sleek design. The Leica SL2-S is perfect for enthusiasts and professionals alike.",
+    "quantity": 16,
+    "sold": 16,
+    "price": 1300,
+    "priceAfterDiscount": 1200,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/leica_sl2-s.jpg",
+            "publicId": "leica_sl2-s"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b53716352973c753e71d7",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 58,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "24MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "GoPro Max",
+    "description": "A high-performance camera with excellent features and sleek design. The GoPro Max is perfect for enthusiasts and professionals alike.",
+    "quantity": 17,
+    "sold": 17,
+    "price": 1350,
+    "priceAfterDiscount": 1245,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/gopro_max.jpg",
+            "publicId": "gopro_max"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b537e6352973c753e71d9",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 61,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "25MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "DJI Ronin 4D",
+    "description": "A high-performance camera with excellent features and sleek design. The DJI Ronin 4D is perfect for enthusiasts and professionals alike.",
+    "quantity": 18,
+    "sold": 18,
+    "price": 1400,
+    "priceAfterDiscount": 1290,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/dji_ronin_4d.jpg",
+            "publicId": "dji_ronin_4d"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b53906352973c753e71db",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 64,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "26MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+},
+{
+    "title": "Pentax KP",
+    "description": "A high-performance camera with excellent features and sleek design. The Pentax KP is perfect for enthusiasts and professionals alike.",
+    "quantity": 19,
+    "sold": 19,
+    "price": 1450,
+    "priceAfterDiscount": 1335,
+    "colors": [
+        "Black",
+        "Silver",
+        "White"
+    ],
+    "images": [
+        {
+            "url": "https://example.com/images/pentax_kp.jpg",
+            "publicId": "pentax_kp"
+        }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b53a16352973c753e71dd",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 67,
+    "specifications": {
+        "Type": "camera",
+        "Resolution": "27MP",
+        "Battery": null,
+        "Screen": null,
+        "Lens": "Standard Zoom"
+    }
+}
+]

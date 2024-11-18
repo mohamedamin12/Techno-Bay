@@ -1,9 +1,7 @@
+/* eslint-disable no-undef */
 const asyncHandler = require("express-async-handler");
-const fs = require("fs");
-const path = require("path");
 const Brands = require("../models/brands.model");
 const ApiError = require("../utils/apiFeatures");
-
 
 const {
   buildFilter,
@@ -11,7 +9,6 @@ const {
   buildFields,
   buildKeywordSearch,
 } = require("../utils/apiFeatures");
-const { cloudinaryUploadImage } = require("../utils/cloudinary");
 
 /**
  *  @desc    create a new brand
@@ -22,20 +19,8 @@ const { cloudinaryUploadImage } = require("../utils/cloudinary");
 exports.createBrand = asyncHandler(async (req, res, next) => {
   const { title } = req.body;
 
-  let imageUrl = null;
-  let imagePublicId = null;
-
-  const imagePath = path.join(__dirname, `../images/${req.file.filename}`);
-
-  if (req.file) {
-    const upload = await cloudinaryUploadImage(imagePath);
-    imageUrl = upload.secure_url;
-    imagePublicId = upload.public_id;
-  }
-
   const newBrand = new Brands({
     title,
-    image: { url: imageUrl, publicId: imagePublicId },
   });
 
   await newBrand.save();
@@ -44,7 +29,6 @@ exports.createBrand = asyncHandler(async (req, res, next) => {
     message: "Brand created successfully",
     data: newBrand,
   });
-  fs.unlinkSync(imagePath);
 });
 
 /**

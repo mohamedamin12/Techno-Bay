@@ -1,0 +1,941 @@
+[
+  {
+      "title": "iPhone 14 Pro Max",
+      "description": "iPhone 14 Pro Max is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 100,
+      "sold": 0,
+      "price": 500,
+      "priceAfterDiscount": 450,
+      "colors": [
+          "Black"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/iPhone_14_Pro_Max_front.jpg",
+              "publicId": "iPhone_14_Pro_Max_front"
+          },
+          {
+              "url": "https://example.com/images/iPhone_14_Pro_Max_back.jpg",
+              "publicId": "iPhone_14_Pro_Max_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2ae49d10dee7ca8b4bc4",
+      "ratingsAverage": 3.5,
+      "ratingsQuantity": 100,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "5000mAh",
+          "Camera": "108MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Samsung Galaxy S23 Ultra",
+      "description": "Samsung Galaxy S23 Ultra is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 101,
+      "sold": 2,
+      "price": 510,
+      "priceAfterDiscount": 460,
+      "colors": [
+          "Black",
+          "White"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Samsung_Galaxy_S23_Ultra_front.jpg",
+              "publicId": "Samsung_Galaxy_S23_Ultra_front"
+          },
+          {
+              "url": "https://example.com/images/Samsung_Galaxy_S23_Ultra_back.jpg",
+              "publicId": "Samsung_Galaxy_S23_Ultra_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2b8598ae08824ff13e3b",
+      "ratingsAverage": 3.8,
+      "ratingsQuantity": 105,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "120MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Xiaomi 13 Pro",
+      "description": "Xiaomi 13 Pro is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 102,
+      "sold": 4,
+      "price": 520,
+      "priceAfterDiscount": 470,
+      "colors": [
+          "Black",
+          "White",
+          "Blue"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Xiaomi_13_Pro_front.jpg",
+              "publicId": "Xiaomi_13_Pro_front"
+          },
+          {
+              "url": "https://example.com/images/Xiaomi_13_Pro_back.jpg",
+              "publicId": "Xiaomi_13_Pro_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b58def5a8d6f609efce82",
+      "ratingsAverage": 4.1,
+      "ratingsQuantity": 110,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Sony Xperia 1 V",
+      "description": "Sony Xperia 1 V is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 105,
+      "sold": 10,
+      "price": 550,
+      "priceAfterDiscount": 500,
+      "colors": [
+          "Black",
+          "White"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Sony_Xperia_1_V_front.jpg",
+              "publicId": "Sony_Xperia_1_V_front"
+          },
+          {
+              "url": "https://example.com/images/Sony_Xperia_1_V_back.jpg",
+              "publicId": "Sony_Xperia_1_V_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b531f6352973c753e71cf",
+      "ratingsAverage": 3.5,
+      "ratingsQuantity": 125,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Huawei Mate 50 Pro",
+      "description": "Huawei Mate 50 Pro is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 106,
+      "sold": 12,
+      "price": 560,
+      "priceAfterDiscount": 510,
+      "colors": [
+          "Black",
+          "White",
+          "Blue"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Huawei_Mate_50_Pro_front.jpg",
+              "publicId": "Huawei_Mate_50_Pro_front"
+          },
+          {
+              "url": "https://example.com/images/Huawei_Mate_50_Pro_back.jpg",
+              "publicId": "Huawei_Mate_50_Pro_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2b9198ae08824ff13e3d",
+      "ratingsAverage": 3.8,
+      "ratingsQuantity": 130,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "5000mAh",
+          "Camera": "108MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Oppo Find X6 Pro",
+      "description": "Oppo Find X6 Pro is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 107,
+      "sold": 14,
+      "price": 570,
+      "priceAfterDiscount": 520,
+      "colors": [
+          "Black",
+          "White",
+          "Blue",
+          "Gold"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Oppo_Find_X6_Pro_front.jpg",
+              "publicId": "Oppo_Find_X6_Pro_front"
+          },
+          {
+              "url": "https://example.com/images/Oppo_Find_X6_Pro_back.jpg",
+              "publicId": "Oppo_Find_X6_Pro_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "64b5f06d8e3b8c001ecf6a2c",
+      "ratingsAverage": 4.1,
+      "ratingsQuantity": 135,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "120MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Vivo X90 Pro+",
+      "description": "Vivo X90 Pro+ is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 108,
+      "sold": 16,
+      "price": 580,
+      "priceAfterDiscount": 530,
+      "colors": [
+          "Black"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Vivo_X90_Pro+_front.jpg",
+              "publicId": "Vivo_X90_Pro+_front"
+          },
+          {
+              "url": "https://example.com/images/Vivo_X90_Pro+_back.jpg",
+              "publicId": "Vivo_X90_Pro+_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b5f4525a9d98447205600",
+      "ratingsAverage": 4.4,
+      "ratingsQuantity": 140,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Realme GT 5",
+      "description": "Realme GT 5 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 109,
+      "sold": 18,
+      "price": 590,
+      "priceAfterDiscount": 540,
+      "colors": [
+          "Black",
+          "White"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Realme_GT_5_front.jpg",
+              "publicId": "Realme_GT_5_front"
+          },
+          {
+              "url": "https://example.com/images/Realme_GT_5_back.jpg",
+              "publicId": "Realme_GT_5_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b59408fd30259dfb4d02d",
+      "ratingsAverage": 4.7,
+      "ratingsQuantity": 145,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "5000mAh",
+          "Camera": "108MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Asus ROG Phone 7 Ultimate",
+      "description": "Asus ROG Phone 7 Ultimate is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 110,
+      "sold": 20,
+      "price": 600,
+      "priceAfterDiscount": 550,
+      "colors": [
+          "Black",
+          "White",
+          "Blue"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Asus_ROG_Phone_7_Ultimate_front.jpg",
+              "publicId": "Asus_ROG_Phone_7_Ultimate_front"
+          },
+          {
+              "url": "https://example.com/images/Asus_ROG_Phone_7_Ultimate_back.jpg",
+              "publicId": "Asus_ROG_Phone_7_Ultimate_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2afc9d10dee7ca8b4bc8",
+      "ratingsAverage": 3.5,
+      "ratingsQuantity": 150,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "4500mAh",
+          "Camera": "120MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Nokia XR21",
+      "description": "Nokia XR21 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 111,
+      "sold": 22,
+      "price": 610,
+      "priceAfterDiscount": 560,
+      "colors": [
+          "Black",
+          "White",
+          "Blue",
+          "Gold"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Nokia_XR21_front.jpg",
+              "publicId": "Nokia_XR21_front"
+          },
+          {
+              "url": "https://example.com/images/Nokia_XR21_back.jpg",
+              "publicId": "Nokia_XR21_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b5977c25822f79979342b",
+      "ratingsAverage": 3.8,
+      "ratingsQuantity": 155,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+
+  {
+      "title": "iPhone SE (2022)",
+      "description": "iPhone SE (2022) is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 115,
+      "sold": 30,
+      "price": 650,
+      "priceAfterDiscount": 600,
+      "colors": [
+          "Black",
+          "White",
+          "Blue",
+          "Gold"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/iPhone_SE_(2022)_front.jpg",
+              "publicId": "iPhone_SE_(2022)_front"
+          },
+          {
+              "url": "https://example.com/images/iPhone_SE_(2022)_back.jpg",
+              "publicId": "iPhone_SE_(2022)_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2ae49d10dee7ca8b4bc4",
+      "ratingsAverage": 3.5,
+      "ratingsQuantity": 175,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "5000mAh",
+          "Camera": "108MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Samsung Galaxy Z Fold 5",
+      "description": "Samsung Galaxy Z Fold 5 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 116,
+      "sold": 32,
+      "price": 660,
+      "priceAfterDiscount": 610,
+      "colors": [
+          "Black"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Samsung_Galaxy_Z_Fold_5_front.jpg",
+              "publicId": "Samsung_Galaxy_Z_Fold_5_front"
+          },
+          {
+              "url": "https://example.com/images/Samsung_Galaxy_Z_Fold_5_back.jpg",
+              "publicId": "Samsung_Galaxy_Z_Fold_5_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2b8598ae08824ff13e3b",
+      "ratingsAverage": 3.8,
+      "ratingsQuantity": 180,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "4500mAh",
+          "Camera": "120MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Xiaomi Redmi Note 12 Pro",
+      "description": "Xiaomi Redmi Note 12 Pro is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 117,
+      "sold": 34,
+      "price": 670,
+      "priceAfterDiscount": 620,
+      "colors": [
+          "Black",
+          "White"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Xiaomi_Redmi_Note_12_Pro_front.jpg",
+              "publicId": "Xiaomi_Redmi_Note_12_Pro_front"
+          },
+          {
+              "url": "https://example.com/images/Xiaomi_Redmi_Note_12_Pro_back.jpg",
+              "publicId": "Xiaomi_Redmi_Note_12_Pro_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b58def5a8d6f609efce82",
+      "ratingsAverage": 4.1,
+      "ratingsQuantity": 185,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Sony Xperia 10 V",
+      "description": "Sony Xperia 10 V is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 120,
+      "sold": 40,
+      "price": 700,
+      "priceAfterDiscount": 650,
+      "colors": [
+          "Black"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Sony_Xperia_10_V_front.jpg",
+              "publicId": "Sony_Xperia_10_V_front"
+          },
+          {
+              "url": "https://example.com/images/Sony_Xperia_10_V_back.jpg",
+              "publicId": "Sony_Xperia_10_V_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b531f6352973c753e71cf",
+      "ratingsAverage": 3.5,
+      "ratingsQuantity": 200,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Huawei P60 Pro",
+      "description": "Huawei P60 Pro is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 121,
+      "sold": 42,
+      "price": 710,
+      "priceAfterDiscount": 660,
+      "colors": [
+          "Black",
+          "White"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Huawei_P60_Pro_front.jpg",
+              "publicId": "Huawei_P60_Pro_front"
+          },
+          {
+              "url": "https://example.com/images/Huawei_P60_Pro_back.jpg",
+              "publicId": "Huawei_P60_Pro_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2b9198ae08824ff13e3d",
+      "ratingsAverage": 3.8,
+      "ratingsQuantity": 205,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "5000mAh",
+          "Camera": "108MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Oppo Reno 10 Pro",
+      "description": "Oppo Reno 10 Pro is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 122,
+      "sold": 44,
+      "price": 720,
+      "priceAfterDiscount": 670,
+      "colors": [
+          "Black",
+          "White",
+          "Blue"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Oppo_Reno_10_Pro_front.jpg",
+              "publicId": "Oppo_Reno_10_Pro_front"
+          },
+          {
+              "url": "https://example.com/images/Oppo_Reno_10_Pro_back.jpg",
+              "publicId": "Oppo_Reno_10_Pro_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b5effe3f780ddd8810354",
+      "ratingsAverage": 4.1,
+      "ratingsQuantity": 210,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "4500mAh",
+          "Camera": "120MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Vivo V29",
+      "description": "Vivo V29 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 123,
+      "sold": 46,
+      "price": 730,
+      "priceAfterDiscount": 680,
+      "colors": [
+          "Black",
+          "White",
+          "Blue",
+          "Gold"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Vivo_V29_front.jpg",
+              "publicId": "Vivo_V29_front"
+          },
+          {
+              "url": "https://example.com/images/Vivo_V29_back.jpg",
+              "publicId": "Vivo_V29_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b5f4525a9d98447205600",
+      "ratingsAverage": 4.4,
+      "ratingsQuantity": 215,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Realme Narzo 60",
+      "description": "Realme Narzo 60 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 124,
+      "sold": 48,
+      "price": 740,
+      "priceAfterDiscount": 690,
+      "colors": [
+          "Black"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Realme_Narzo_60_front.jpg",
+              "publicId": "Realme_Narzo_60_front"
+          },
+          {
+              "url": "https://example.com/images/Realme_Narzo_60_back.jpg",
+              "publicId": "Realme_Narzo_60_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b59408fd30259dfb4d02d",
+      "ratingsAverage": 4.7,
+      "ratingsQuantity": 220,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "5000mAh",
+          "Camera": "108MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Asus Zenfone 10",
+      "description": "Asus Zenfone 10 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 125,
+      "sold": 50,
+      "price": 750,
+      "priceAfterDiscount": 700,
+      "colors": [
+          "Black",
+          "White"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Asus_Zenfone_10_front.jpg",
+              "publicId": "Asus_Zenfone_10_front"
+          },
+          {
+              "url": "https://example.com/images/Asus_Zenfone_10_back.jpg",
+              "publicId": "Asus_Zenfone_10_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2afc9d10dee7ca8b4bc8",
+      "ratingsAverage": 3.5,
+      "ratingsQuantity": 225,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "120MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Nokia G60",
+      "description": "Nokia G60 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 126,
+      "sold": 52,
+      "price": 760,
+      "priceAfterDiscount": 710,
+      "colors": [
+          "Black",
+          "White",
+          "Blue"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Nokia_G60_front.jpg",
+              "publicId": "Nokia_G60_front"
+          },
+          {
+              "url": "https://example.com/images/Nokia_G60_back.jpg",
+              "publicId": "Nokia_G60_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b5977c25822f79979342b",
+      "ratingsAverage": 3.8,
+      "ratingsQuantity": 230,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "iPhone 13 Mini",
+      "description": "iPhone 13 Mini is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 130,
+      "sold": 60,
+      "price": 800,
+      "priceAfterDiscount": 750,
+      "colors": [
+          "Black",
+          "White",
+          "Blue"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/iPhone_13_Mini_front.jpg",
+              "publicId": "iPhone_13_Mini_front"
+          },
+          {
+              "url": "https://example.com/images/iPhone_13_Mini_back.jpg",
+              "publicId": "iPhone_13_Mini_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2ae49d10dee7ca8b4bc4",
+      "ratingsAverage": 3.5,
+      "ratingsQuantity": 250,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "5000mAh",
+          "Camera": "108MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Samsung Galaxy A54",
+      "description": "Samsung Galaxy A54 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 131,
+      "sold": 62,
+      "price": 810,
+      "priceAfterDiscount": 760,
+      "colors": [
+          "Black",
+          "White",
+          "Blue",
+          "Gold"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Samsung_Galaxy_A54_front.jpg",
+              "publicId": "Samsung_Galaxy_A54_front"
+          },
+          {
+              "url": "https://example.com/images/Samsung_Galaxy_A54_back.jpg",
+              "publicId": "Samsung_Galaxy_A54_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2b8598ae08824ff13e3b",
+      "ratingsAverage": 3.8,
+      "ratingsQuantity": 255,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "120MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Xiaomi Poco F5",
+      "description": "Xiaomi Poco F5 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 132,
+      "sold": 64,
+      "price": 820,
+      "priceAfterDiscount": 770,
+      "colors": [
+          "Black"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Xiaomi_Poco_F5_front.jpg",
+              "publicId": "Xiaomi_Poco_F5_front"
+          },
+          {
+              "url": "https://example.com/images/Xiaomi_Poco_F5_back.jpg",
+              "publicId": "Xiaomi_Poco_F5_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b58def5a8d6f609efce82",
+      "ratingsAverage": 4.1,
+      "ratingsQuantity": 260,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Sony Xperia 5 IV",
+      "description": "Sony Xperia 5 IV is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 135,
+      "sold": 70,
+      "price": 850,
+      "priceAfterDiscount": 800,
+      "colors": [
+          "Black",
+          "White",
+          "Blue",
+          "Gold"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Sony_Xperia_5_IV_front.jpg",
+              "publicId": "Sony_Xperia_5_IV_front"
+          },
+          {
+              "url": "https://example.com/images/Sony_Xperia_5_IV_back.jpg",
+              "publicId": "Sony_Xperia_5_IV_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b531f6352973c753e71cf",
+      "ratingsAverage": 3.5,
+      "ratingsQuantity": 275,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Huawei Nova 11",
+      "description": "Huawei Nova 11 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 136,
+      "sold": 72,
+      "price": 860,
+      "priceAfterDiscount": 810,
+      "colors": [
+          "Black"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Huawei_Nova_11_front.jpg",
+              "publicId": "Huawei_Nova_11_front"
+          },
+          {
+              "url": "https://example.com/images/Huawei_Nova_11_back.jpg",
+              "publicId": "Huawei_Nova_11_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b2b9198ae08824ff13e3d",
+      "ratingsAverage": 3.8,
+      "ratingsQuantity": 280,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "5000mAh",
+          "Camera": "108MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Oppo A98",
+      "description": "Oppo A98 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 137,
+      "sold": 74,
+      "price": 870,
+      "priceAfterDiscount": 820,
+      "colors": [
+          "Black",
+          "White"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Oppo_A98_front.jpg",
+              "publicId": "Oppo_A98_front"
+          },
+          {
+              "url": "https://example.com/images/Oppo_A98_back.jpg",
+              "publicId": "Oppo_A98_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b5effe3f780ddd8810354",
+      "ratingsAverage": 4.1,
+      "ratingsQuantity": 285,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "4500mAh",
+          "Camera": "120MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  },
+  {
+      "title": "Vivo Y100",
+      "description": "Vivo Y100 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 138,
+      "sold": 76,
+      "price": 880,
+      "priceAfterDiscount": 830,
+      "colors": [
+          "Black",
+          "White",
+          "Blue"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Vivo_Y100_front.jpg",
+              "publicId": "Vivo_Y100_front"
+          },
+          {
+              "url": "https://example.com/images/Vivo_Y100_back.jpg",
+              "publicId": "Vivo_Y100_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b5f4525a9d98447205600",
+      "ratingsAverage": 4.4,
+      "ratingsQuantity": 290,
+      "specifications": {
+          "Processor": "Snapdragon 8 Gen 2",
+          "Battery": "4500mAh",
+          "Camera": "132MP Triple Camera",
+          "Display": "6.7-inch OLED",
+          "OS": "Android 13"
+      }
+  },
+  {
+      "title": "Realme C55",
+      "description": "Realme C55 is a high-end smartphone with exceptional features, including a powerful processor, advanced cameras, and long-lasting battery life.",
+      "quantity": 139,
+      "sold": 78,
+      "price": 890,
+      "priceAfterDiscount": 840,
+      "colors": [
+          "Black",
+          "White",
+          "Blue",
+          "Gold"
+      ],
+      "images": [
+          {
+              "url": "https://example.com/images/Realme_C55_front.jpg",
+              "publicId": "Realme_C55_front"
+          },
+          {
+              "url": "https://example.com/images/Realme_C55_back.jpg",
+              "publicId": "Realme_C55_back"
+          }
+      ],
+      "category": "673b5c1f4ba9e20365e2ade2",
+      "brand": "673b59408fd30259dfb4d02d",
+      "ratingsAverage": 4.7,
+      "ratingsQuantity": 295,
+      "specifications": {
+          "Processor": "A16 Bionic",
+          "Battery": "5000mAh",
+          "Camera": "108MP Triple Camera",
+          "Display": "6.1-inch AMOLED",
+          "OS": "iOS 16"
+      }
+  }
+]

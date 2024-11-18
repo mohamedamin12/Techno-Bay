@@ -1,0 +1,522 @@
+[
+  {
+    "title": "iPad Pro 12.9",
+    "description": "A high-performance tablet with excellent features and sleek design. The iPad Pro 12.9 is perfect for enthusiasts and professionals alike.",
+    "quantity": 15,
+    "sold": 20,
+    "price": 1500,
+    "priceAfterDiscount": 1380,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/ipad_pro_12.9.jpg",
+        "publicId": "ipad_pro_12.9"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2ae49d10dee7ca8b4bc4",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 70,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2000mAh",
+      "Screen": "8.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Samsung Galaxy Tab S9",
+    "description": "A high-performance tablet with excellent features and sleek design. The Samsung Galaxy Tab S9 is perfect for enthusiasts and professionals alike.",
+    "quantity": 16,
+    "sold": 21,
+    "price": 1550,
+    "priceAfterDiscount": 1425,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/samsung_galaxy_tab_s9.jpg",
+        "publicId": "samsung_galaxy_tab_s9"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2b8598ae08824ff13e3b",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 73,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2500mAh",
+      "Screen": "7.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Microsoft Surface Pro 9",
+    "description": "A high-performance tablet with excellent features and sleek design. The Microsoft Surface Pro 9 is perfect for enthusiasts and professionals alike.",
+    "quantity": 17,
+    "sold": 22,
+    "price": 1600,
+    "priceAfterDiscount": 1470,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/microsoft_surface_pro_9.jpg",
+        "publicId": "microsoft_surface_pro_9"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2b570fea54abd4b34f89",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 76,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3000mAh",
+      "Screen": "8.4 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Amazon Fire HD 10",
+    "description": "A high-performance tablet with excellent features and sleek design. The Amazon Fire HD 10 is perfect for enthusiasts and professionals alike.",
+    "quantity": 18,
+    "sold": 23,
+    "price": 1650,
+    "priceAfterDiscount": 1515,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/amazon_fire_hd_10.jpg",
+        "publicId": "amazon_fire_hd_10"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b5822feb2dce87ea4a698",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 79,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3500mAh",
+      "Screen": "8.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Lenovo Tab P11 Pro",
+    "description": "A high-performance tablet with excellent features and sleek design. The Lenovo Tab P11 Pro is perfect for enthusiasts and professionals alike.",
+    "quantity": 19,
+    "sold": 24,
+    "price": 1700,
+    "priceAfterDiscount": 1560,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/lenovo_tab_p11_pro.jpg",
+        "publicId": "lenovo_tab_p11_pro"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2af29d10dee7ca8b4bc6",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 82,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2000mAh",
+      "Screen": "7.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Huawei MatePad Pro",
+    "description": "A high-performance tablet with excellent features and sleek design. The Huawei MatePad Pro is perfect for enthusiasts and professionals alike.",
+    "quantity": 15,
+    "sold": 25,
+    "price": 1750,
+    "priceAfterDiscount": 1605,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/huawei_matepad_pro.jpg",
+        "publicId": "huawei_matepad_pro"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2b9198ae08824ff13e3d",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 85,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2500mAh",
+      "Screen": "8.4 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Xiaomi Pad 6",
+    "description": "A high-performance tablet with excellent features and sleek design. The Xiaomi Pad 6 is perfect for enthusiasts and professionals alike.",
+    "quantity": 16,
+    "sold": 26,
+    "price": 1800,
+    "priceAfterDiscount": 1650,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/xiaomi_pad_6.jpg",
+        "publicId": "xiaomi_pad_6"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b58def5a8d6f609efce82",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 88,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3000mAh",
+      "Screen": "8.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Asus ROG Flow Z13",
+    "description": "A high-performance tablet with excellent features and sleek design. The Asus ROG Flow Z13 is perfect for enthusiasts and professionals alike.",
+    "quantity": 17,
+    "sold": 27,
+    "price": 1850,
+    "priceAfterDiscount": 1695,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/asus_rog_flow_z13.jpg",
+        "publicId": "asus_rog_flow_z13"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b59408fd30259dfb4d02d",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 91,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3500mAh",
+      "Screen": "7.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Realme Pad X",
+    "description": "A high-performance tablet with excellent features and sleek design. The Realme Pad X is perfect for enthusiasts and professionals alike.",
+    "quantity": 18,
+    "sold": 28,
+    "price": 1900,
+    "priceAfterDiscount": 1740,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/realme_pad_x.jpg",
+        "publicId": "realme_pad_x"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b59408fd30259dfb4d02d",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 94,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2000mAh",
+      "Screen": "8.4 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Nokia T21",
+    "description": "A high-performance tablet with excellent features and sleek design. The Nokia T21 is perfect for enthusiasts and professionals alike.",
+    "quantity": 19,
+    "sold": 29,
+    "price": 1950,
+    "priceAfterDiscount": 1785,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/nokia_t21.jpg",
+        "publicId": "nokia_t21"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b5977c25822f79979342b",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 97,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2500mAh",
+      "Screen": "8.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "TCL Tab 10s",
+    "description": "A high-performance tablet with excellent features and sleek design. The TCL Tab 10s is perfect for enthusiasts and professionals alike.",
+    "quantity": 15,
+    "sold": 30,
+    "price": 2000,
+    "priceAfterDiscount": 1830,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/tcl_tab_10s.jpg",
+        "publicId": "tcl_tab_10s"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b5991ff834c456ff7d30c",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 100,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3000mAh",
+      "Screen": "7.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Samsung Galaxy Tab A8",
+    "description": "A high-performance tablet with excellent features and sleek design. The Samsung Galaxy Tab A8 is perfect for enthusiasts and professionals alike.",
+    "quantity": 16,
+    "sold": 31,
+    "price": 2050,
+    "priceAfterDiscount": 1875,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/samsung_galaxy_tab_a8.jpg",
+        "publicId": "samsung_galaxy_tab_a8"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2b8598ae08824ff13e3b",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 103,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3500mAh",
+      "Screen": "8.4 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "iPad Mini",
+    "description": "A high-performance tablet with excellent features and sleek design. The iPad Mini is perfect for enthusiasts and professionals alike.",
+    "quantity": 17,
+    "sold": 32,
+    "price": 2100,
+    "priceAfterDiscount": 1920,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/ipad_mini.jpg",
+        "publicId": "ipad_mini"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2ae49d10dee7ca8b4bc4",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 106,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2000mAh",
+      "Screen": "8.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Microsoft Surface Go 3",
+    "description": "A high-performance tablet with excellent features and sleek design. The Microsoft Surface Go 3 is perfect for enthusiasts and professionals alike.",
+    "quantity": 18,
+    "sold": 33,
+    "price": 2150,
+    "priceAfterDiscount": 1965,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/microsoft_surface_go_3.jpg",
+        "publicId": "microsoft_surface_go_3"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2b570fea54abd4b34f89",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 109,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2500mAh",
+      "Screen": "7.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Lenovo Yoga Tab 13",
+    "description": "A high-performance tablet with excellent features and sleek design. The Lenovo Yoga Tab 13 is perfect for enthusiasts and professionals alike.",
+    "quantity": 19,
+    "sold": 34,
+    "price": 2200,
+    "priceAfterDiscount": 2010,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/lenovo_yoga_tab_13.jpg",
+        "publicId": "lenovo_yoga_tab_13"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2af29d10dee7ca8b4bc6",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 112,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3000mAh",
+      "Screen": "8.4 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Huawei MediaPad T5",
+    "description": "A high-performance tablet with excellent features and sleek design. The Huawei MediaPad T5 is perfect for enthusiasts and professionals alike.",
+    "quantity": 15,
+    "sold": 35,
+    "price": 2250,
+    "priceAfterDiscount": 2055,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/huawei_mediapad_t5.jpg",
+        "publicId": "huawei_mediapad_t5"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2b9198ae08824ff13e3d",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 115,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3500mAh",
+      "Screen": "8.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Amazon Fire 7",
+    "description": "A high-performance tablet with excellent features and sleek design. The Amazon Fire 7 is perfect for enthusiasts and professionals alike.",
+    "quantity": 16,
+    "sold": 36,
+    "price": 2300,
+    "priceAfterDiscount": 2100,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/amazon_fire_7.jpg",
+        "publicId": "amazon_fire_7"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b5822feb2dce87ea4a698",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 118,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2000mAh",
+      "Screen": "7.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Xiaomi Mi Pad 5",
+    "description": "A high-performance tablet with excellent features and sleek design. The Xiaomi Mi Pad 5 is perfect for enthusiasts and professionals alike.",
+    "quantity": 17,
+    "sold": 37,
+    "price": 2350,
+    "priceAfterDiscount": 2145,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/xiaomi_mi_pad_5.jpg",
+        "publicId": "xiaomi_mi_pad_5"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b58def5a8d6f609efce82",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 121,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "2500mAh",
+      "Screen": "8.4 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Asus Chromebook Tablet CT100",
+    "description": "A high-performance tablet with excellent features and sleek design. The Asus Chromebook Tablet CT100 is perfect for enthusiasts and professionals alike.",
+    "quantity": 18,
+    "sold": 38,
+    "price": 2400,
+    "priceAfterDiscount": 2190,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/asus_chromebook_tablet_ct100.jpg",
+        "publicId": "asus_chromebook_tablet_ct100"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "673b2afc9d10dee7ca8b4bc8",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 124,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3000mAh",
+      "Screen": "8.9 inch",
+      "Lens": null
+    }
+  },
+  {
+    "title": "Realme Pad Mini",
+    "description": "A high-performance tablet with excellent features and sleek design. The Realme Pad Mini is perfect for enthusiasts and professionals alike.",
+    "quantity": 19,
+    "sold": 39,
+    "price": 2450,
+    "priceAfterDiscount": 2235,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/realme_pad_mini.jpg",
+        "publicId": "realme_pad_mini"
+      }
+    ],
+    "category": "673b56b8c2196f97038bca11",
+    "brand": "64bca0e1f0c20d1f89e4d456",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 127,
+    "specifications": {
+      "Type": "tablet",
+      "Resolution": "2560x1600",
+      "Battery": "3500mAh",
+      "Screen": "7.9 inch",
+      "Lens": null
+    }
+  }
+]

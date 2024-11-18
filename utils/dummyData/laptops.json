@@ -1,0 +1,1362 @@
+[
+  {
+    "title": "Dell XPS 13",
+    "description": "This is a high-performance laptop model 1, perfect for work and gaming.",
+    "quantity": 101,
+    "sold": 2,
+    "price": 550,
+    "priceAfterDiscount": 495,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop1_1.jpg",
+        "publicId": "laptop1_1"
+      },
+      {
+        "url": "https://example.com/images/laptop1_2.jpg",
+        "publicId": "laptop1_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2acf9d10dee7ca8b4bc2",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 3,
+    "specifications": {
+      "Processor": "Intel Core i6",
+      "RAM": "12GB",
+      "Storage": "512GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "7 hours battery life"
+    }
+  },
+  {
+    "title": "Apple MacBook Air M2",
+    "description": "This is a high-performance laptop model 2, perfect for work and gaming.",
+    "quantity": 102,
+    "sold": 4,
+    "price": 600,
+    "priceAfterDiscount": 540,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop2_1.jpg",
+        "publicId": "laptop2_1"
+      },
+      {
+        "url": "https://example.com/images/laptop2_2.jpg",
+        "publicId": "laptop2_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2ae49d10dee7ca8b4bc4",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 6,
+    "specifications": {
+      "Processor": "Intel Core i7",
+      "RAM": "16GB",
+      "Storage": "768GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "8 hours battery life"
+    }
+  },
+  {
+    "title": "HP Spectre x360",
+    "description": "This is a high-performance laptop model 3, perfect for work and gaming.",
+    "quantity": 103,
+    "sold": 6,
+    "price": 650,
+    "priceAfterDiscount": 585,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop3_1.jpg",
+        "publicId": "laptop3_1"
+      },
+      {
+        "url": "https://example.com/images/laptop3_2.jpg",
+        "publicId": "laptop3_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b300fea54abd4b34f86",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 9,
+    "specifications": {
+      "Processor": "Intel Core i8",
+      "RAM": "8GB",
+      "Storage": "1024GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "9 hours battery life"
+    }
+  },
+  {
+    "title": "Lenovo ThinkPad X1 Carbon",
+    "description": "This is a high-performance laptop model 4, perfect for work and gaming.",
+    "quantity": 104,
+    "sold": 8,
+    "price": 700,
+    "priceAfterDiscount": 630,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop4_1.jpg",
+        "publicId": "laptop4_1"
+      },
+      {
+        "url": "https://example.com/images/laptop4_2.jpg",
+        "publicId": "laptop4_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2af29d10dee7ca8b4bc6",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 12,
+    "specifications": {
+      "Processor": "Intel Core i9",
+      "RAM": "12GB",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "10 hours battery life"
+    }
+  },
+  {
+    "title": "Asus ROG Zephyrus G14",
+    "description": "This is a high-performance laptop model 5, perfect for work and gaming.",
+    "quantity": 105,
+    "sold": 10,
+    "price": 750,
+    "priceAfterDiscount": 675,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop5_1.jpg",
+        "publicId": "laptop5_1"
+      },
+      {
+        "url": "https://example.com/images/laptop5_2.jpg",
+        "publicId": "laptop5_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2afc9d10dee7ca8b4bc8",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 15,
+    "specifications": {
+      "Processor": "Intel Core i5",
+      "RAM": "16GB",
+      "Storage": "512GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "11 hours battery life"
+    }
+  },
+  {
+    "title": "Acer Swift 3",
+    "description": "This is a high-performance laptop model 6, perfect for work and gaming.",
+    "quantity": 106,
+    "sold": 12,
+    "price": 800,
+    "priceAfterDiscount": 720,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop6_1.jpg",
+        "publicId": "laptop6_1"
+      },
+      {
+        "url": "https://example.com/images/laptop6_2.jpg",
+        "publicId": "laptop6_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b089d10dee7ca8b4bca",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 18,
+    "specifications": {
+      "Processor": "Intel Core i6",
+      "RAM": "8GB",
+      "Storage": "768GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "12 hours battery life"
+    }
+  },
+  {
+    "title": "Microsoft Surface Laptop 5",
+    "description": "This is a high-performance laptop model 7, perfect for work and gaming.",
+    "quantity": 107,
+    "sold": 14,
+    "price": 850,
+    "priceAfterDiscount": 765,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop7_1.jpg",
+        "publicId": "laptop7_1"
+      },
+      {
+        "url": "https://example.com/images/laptop7_2.jpg",
+        "publicId": "laptop7_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b570fea54abd4b34f89",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 21,
+    "specifications": {
+      "Processor": "Intel Core i7",
+      "RAM": "12GB",
+      "Storage": "1024GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "13 hours battery life"
+    }
+  },
+  {
+    "title": "Razer Blade 15",
+    "description": "This is a high-performance laptop model 8, perfect for work and gaming.",
+    "quantity": 108,
+    "sold": 16,
+    "price": 900,
+    "priceAfterDiscount": 810,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop8_1.jpg",
+        "publicId": "laptop8_1"
+      },
+      {
+        "url": "https://example.com/images/laptop8_2.jpg",
+        "publicId": "laptop8_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b6598ae08824ff13e37",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 24,
+    "specifications": {
+      "Processor": "Intel Core i8",
+      "RAM": "16GB",
+      "Storage": "256GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "14 hours battery life"
+    }
+  },
+  {
+    "title": "LG Gram 16",
+    "description": "This is a high-performance laptop model 9, perfect for work and gaming.",
+    "quantity": 109,
+    "sold": 18,
+    "price": 950,
+    "priceAfterDiscount": 855,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop9_1.jpg",
+        "publicId": "laptop9_1"
+      },
+      {
+        "url": "https://example.com/images/laptop9_2.jpg",
+        "publicId": "laptop9_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b6c98ae08824ff13e39",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 27,
+    "specifications": {
+      "Processor": "Intel Core i9",
+      "RAM": "8GB",
+      "Storage": "512GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "15 hours battery life"
+    }
+  },
+  {
+    "title": "Samsung Galaxy Book Pro 360",
+    "description": "This is a high-performance laptop model 10, perfect for work and gaming.",
+    "quantity": 110,
+    "sold": 20,
+    "price": 1000,
+    "priceAfterDiscount": 900,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop10_1.jpg",
+        "publicId": "laptop10_1"
+      },
+      {
+        "url": "https://example.com/images/laptop10_2.jpg",
+        "publicId": "laptop10_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b8598ae08824ff13e3b",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 30,
+    "specifications": {
+      "Processor": "Intel Core i5",
+      "RAM": "12GB",
+      "Storage": "768GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "6 hours battery life"
+    }
+  },
+  {
+    "title": "Huawei MateBook X Pro",
+    "description": "This is a high-performance laptop model 11, perfect for work and gaming.",
+    "quantity": 111,
+    "sold": 22,
+    "price": 1050,
+    "priceAfterDiscount": 945,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop11_1.jpg",
+        "publicId": "laptop11_1"
+      },
+      {
+        "url": "https://example.com/images/laptop11_2.jpg",
+        "publicId": "laptop11_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b9198ae08824ff13e3d",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 33,
+    "specifications": {
+      "Processor": "Intel Core i6",
+      "RAM": "16GB",
+      "Storage": "1024GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "7 hours battery life"
+    }
+  },
+  {
+    "title": "MSI Prestige 14",
+    "description": "This is a high-performance laptop model 12, perfect for work and gaming.",
+    "quantity": 112,
+    "sold": 24,
+    "price": 1100,
+    "priceAfterDiscount": 990,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop12_1.jpg",
+        "publicId": "laptop12_1"
+      },
+      {
+        "url": "https://example.com/images/laptop12_2.jpg",
+        "publicId": "laptop12_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2ba098ae08824ff13e3f",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 36,
+    "specifications": {
+      "Processor": "Intel Core i7",
+      "RAM": "8GB",
+      "Storage": "256GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "8 hours battery life"
+    }
+  },
+  {
+    "title": "Alienware m15 R6",
+    "description": "This is a high-performance laptop model 13, perfect for work and gaming.",
+    "quantity": 113,
+    "sold": 26,
+    "price": 1150,
+    "priceAfterDiscount": 1035,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop13_1.jpg",
+        "publicId": "laptop13_1"
+      },
+      {
+        "url": "https://example.com/images/laptop13_2.jpg",
+        "publicId": "laptop13_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2bbf98ae08824ff13e41",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 39,
+    "specifications": {
+      "Processor": "Intel Core i8",
+      "RAM": "12GB",
+      "Storage": "512GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "9 hours battery life"
+    }
+  },
+  {
+    "title": "Asus ZenBook Duo 14",
+    "description": "This is a high-performance laptop model 14, perfect for work and gaming.",
+    "quantity": 114,
+    "sold": 28,
+    "price": 1200,
+    "priceAfterDiscount": 1080,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop14_1.jpg",
+        "publicId": "laptop14_1"
+      },
+      {
+        "url": "https://example.com/images/laptop14_2.jpg",
+        "publicId": "laptop14_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2afc9d10dee7ca8b4bc8",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 42,
+    "specifications": {
+      "Processor": "Intel Core i9",
+      "RAM": "16GB",
+      "Storage": "768GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "10 hours battery life"
+    }
+  },
+  {
+    "title": "Dell Inspiron 15",
+    "description": "This is a high-performance laptop model 15, perfect for work and gaming.",
+    "quantity": 115,
+    "sold": 30,
+    "price": 1250,
+    "priceAfterDiscount": 1125,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop15_1.jpg",
+        "publicId": "laptop15_1"
+      },
+      {
+        "url": "https://example.com/images/laptop15_2.jpg",
+        "publicId": "laptop15_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2acf9d10dee7ca8b4bc2",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 45,
+    "specifications": {
+      "Processor": "Intel Core i5",
+      "RAM": "8GB",
+      "Storage": "1024GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "11 hours battery life"
+    }
+  },
+  {
+    "title": "Apple MacBook Pro 14",
+    "description": "This is a high-performance laptop model 16, perfect for work and gaming.",
+    "quantity": 116,
+    "sold": 32,
+    "price": 1300,
+    "priceAfterDiscount": 1170,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop16_1.jpg",
+        "publicId": "laptop16_1"
+      },
+      {
+        "url": "https://example.com/images/laptop16_2.jpg",
+        "publicId": "laptop16_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2ae49d10dee7ca8b4bc4",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 48,
+    "specifications": {
+      "Processor": "Intel Core i6",
+      "RAM": "12GB",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "12 hours battery life"
+    }
+  },
+  {
+    "title": "HP Pavilion 14",
+    "description": "This is a high-performance laptop model 17, perfect for work and gaming.",
+    "quantity": 117,
+    "sold": 34,
+    "price": 1350,
+    "priceAfterDiscount": 1215,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop17_1.jpg",
+        "publicId": "laptop17_1"
+      },
+      {
+        "url": "https://example.com/images/laptop17_2.jpg",
+        "publicId": "laptop17_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b300fea54abd4b34f86",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 51,
+    "specifications": {
+      "Processor": "Intel Core i7",
+      "RAM": "16GB",
+      "Storage": "512GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "13 hours battery life"
+    }
+  },
+  {
+    "title": "Lenovo Yoga 9i",
+    "description": "This is a high-performance laptop model 18, perfect for work and gaming.",
+    "quantity": 118,
+    "sold": 36,
+    "price": 1400,
+    "priceAfterDiscount": 1260,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop18_1.jpg",
+        "publicId": "laptop18_1"
+      },
+      {
+        "url": "https://example.com/images/laptop18_2.jpg",
+        "publicId": "laptop18_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2af29d10dee7ca8b4bc6",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 54,
+    "specifications": {
+      "Processor": "Intel Core i8",
+      "RAM": "8GB",
+      "Storage": "768GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "14 hours battery life"
+    }
+  },
+  {
+    "title": "Asus Vivobook S15",
+    "description": "This is a high-performance laptop model 19, perfect for work and gaming.",
+    "quantity": 119,
+    "sold": 38,
+    "price": 1450,
+    "priceAfterDiscount": 1305,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop19_1.jpg",
+        "publicId": "laptop19_1"
+      },
+      {
+        "url": "https://example.com/images/laptop19_2.jpg",
+        "publicId": "laptop19_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2afc9d10dee7ca8b4bc8",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 57,
+    "specifications": {
+      "Processor": "Intel Core i9",
+      "RAM": "12GB",
+      "Storage": "1024GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "15 hours battery life"
+    }
+  },
+  {
+    "title": "Acer Aspire 7",
+    "description": "This is a high-performance laptop model 20, perfect for work and gaming.",
+    "quantity": 120,
+    "sold": 40,
+    "price": 1500,
+    "priceAfterDiscount": 1350,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop20_1.jpg",
+        "publicId": "laptop20_1"
+      },
+      {
+        "url": "https://example.com/images/laptop20_2.jpg",
+        "publicId": "laptop20_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b089d10dee7ca8b4bca",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 60,
+    "specifications": {
+      "Processor": "Intel Core i5",
+      "RAM": "16GB",
+      "Storage": "256GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "6 hours battery life"
+    }
+  },
+  {
+    "title": "Microsoft Surface Pro 9",
+    "description": "This is a high-performance laptop model 21, perfect for work and gaming.",
+    "quantity": 121,
+    "sold": 42,
+    "price": 1550,
+    "priceAfterDiscount": 1395,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop21_1.jpg",
+        "publicId": "laptop21_1"
+      },
+      {
+        "url": "https://example.com/images/laptop21_2.jpg",
+        "publicId": "laptop21_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b570fea54abd4b34f89",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 63,
+    "specifications": {
+      "Processor": "Intel Core i6",
+      "RAM": "8GB",
+      "Storage": "512GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "7 hours battery life"
+    }
+  },
+  {
+    "title": "Dell Latitude 7420",
+    "description": "This is a high-performance laptop model 22, perfect for work and gaming.",
+    "quantity": 122,
+    "sold": 44,
+    "price": 1600,
+    "priceAfterDiscount": 1440,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop22_1.jpg",
+        "publicId": "laptop22_1"
+      },
+      {
+        "url": "https://example.com/images/laptop22_2.jpg",
+        "publicId": "laptop22_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2acf9d10dee7ca8b4bc2",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 66,
+    "specifications": {
+      "Processor": "Intel Core i7",
+      "RAM": "12GB",
+      "Storage": "768GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "8 hours battery life"
+    }
+  },
+  {
+    "title": "Samsung Galaxy Book2 360",
+    "description": "This is a high-performance laptop model 23, perfect for work and gaming.",
+    "quantity": 123,
+    "sold": 46,
+    "price": 1650,
+    "priceAfterDiscount": 1485,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop23_1.jpg",
+        "publicId": "laptop23_1"
+      },
+      {
+        "url": "https://example.com/images/laptop23_2.jpg",
+        "publicId": "laptop23_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b8598ae08824ff13e3b",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 69,
+    "specifications": {
+      "Processor": "Intel Core i8",
+      "RAM": "16GB",
+      "Storage": "1024GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "9 hours battery life"
+    }
+  },
+  {
+    "title": "Razer Book 13",
+    "description": "This is a high-performance laptop model 24, perfect for work and gaming.",
+    "quantity": 124,
+    "sold": 48,
+    "price": 1700,
+    "priceAfterDiscount": 1530,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop24_1.jpg",
+        "publicId": "laptop24_1"
+      },
+      {
+        "url": "https://example.com/images/laptop24_2.jpg",
+        "publicId": "laptop24_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b6598ae08824ff13e37",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 72,
+    "specifications": {
+      "Processor": "Intel Core i9",
+      "RAM": "8GB",
+      "Storage": "256GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "10 hours battery life"
+    }
+  },
+  {
+    "title": "HP Elite Dragonfly G3",
+    "description": "This is a high-performance laptop model 25, perfect for work and gaming.",
+    "quantity": 125,
+    "sold": 50,
+    "price": 1750,
+    "priceAfterDiscount": 1575,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop25_1.jpg",
+        "publicId": "laptop25_1"
+      },
+      {
+        "url": "https://example.com/images/laptop25_2.jpg",
+        "publicId": "laptop25_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b300fea54abd4b34f86",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 75,
+    "specifications": {
+      "Processor": "Intel Core i5",
+      "RAM": "12GB",
+      "Storage": "512GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "11 hours battery life"
+    }
+  },
+  {
+    "title": "LG UltraGear 17",
+    "description": "This is a high-performance laptop model 26, perfect for work and gaming.",
+    "quantity": 126,
+    "sold": 52,
+    "price": 1800,
+    "priceAfterDiscount": 1620,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop26_1.jpg",
+        "publicId": "laptop26_1"
+      },
+      {
+        "url": "https://example.com/images/laptop26_2.jpg",
+        "publicId": "laptop26_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b6c98ae08824ff13e39",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 78,
+    "specifications": {
+      "Processor": "Intel Core i6",
+      "RAM": "16GB",
+      "Storage": "768GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "12 hours battery life"
+    }
+  },
+  {
+    "title": "Asus TUF Dash F15",
+    "description": "This is a high-performance laptop model 27, perfect for work and gaming.",
+    "quantity": 127,
+    "sold": 54,
+    "price": 1850,
+    "priceAfterDiscount": 1665,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop27_1.jpg",
+        "publicId": "laptop27_1"
+      },
+      {
+        "url": "https://example.com/images/laptop27_2.jpg",
+        "publicId": "laptop27_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2afc9d10dee7ca8b4bc8",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 81,
+    "specifications": {
+      "Processor": "Intel Core i7",
+      "RAM": "8GB",
+      "Storage": "1024GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "13 hours battery life"
+    }
+  },
+  {
+    "title": "Acer Nitro 5",
+    "description": "This is a high-performance laptop model 28, perfect for work and gaming.",
+    "quantity": 128,
+    "sold": 56,
+    "price": 1900,
+    "priceAfterDiscount": 1710,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop28_1.jpg",
+        "publicId": "laptop28_1"
+      },
+      {
+        "url": "https://example.com/images/laptop28_2.jpg",
+        "publicId": "laptop28_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b089d10dee7ca8b4bca",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 84,
+    "specifications": {
+      "Processor": "Intel Core i8",
+      "RAM": "12GB",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "14 hours battery life"
+    }
+  },
+  {
+    "title": "Lenovo IdeaPad 5 Pro",
+    "description": "This is a high-performance laptop model 29, perfect for work and gaming.",
+    "quantity": 129,
+    "sold": 58,
+    "price": 1950,
+    "priceAfterDiscount": 1755,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop29_1.jpg",
+        "publicId": "laptop29_1"
+      },
+      {
+        "url": "https://example.com/images/laptop29_2.jpg",
+        "publicId": "laptop29_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2af29d10dee7ca8b4bc6",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 87,
+    "specifications": {
+      "Processor": "Intel Core i9",
+      "RAM": "16GB",
+      "Storage": "512GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "15 hours battery life"
+    }
+  },
+  {
+    "title": "Apple MacBook Pro 16",
+    "description": "This is a high-performance laptop model 30, perfect for work and gaming.",
+    "quantity": 130,
+    "sold": 60,
+    "price": 2000,
+    "priceAfterDiscount": 1800,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop30_1.jpg",
+        "publicId": "laptop30_1"
+      },
+      {
+        "url": "https://example.com/images/laptop30_2.jpg",
+        "publicId": "laptop30_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2ae49d10dee7ca8b4bc4",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 90,
+    "specifications": {
+      "Processor": "Intel Core i5",
+      "RAM": "8GB",
+      "Storage": "768GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "6 hours battery life"
+    }
+  },
+  {
+    "title": "Dell Precision 5560",
+    "description": "This is a high-performance laptop model 31, perfect for work and gaming.",
+    "quantity": 131,
+    "sold": 62,
+    "price": 2050,
+    "priceAfterDiscount": 1845,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop31_1.jpg",
+        "publicId": "laptop31_1"
+      },
+      {
+        "url": "https://example.com/images/laptop31_2.jpg",
+        "publicId": "laptop31_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2acf9d10dee7ca8b4bc2",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 93,
+    "specifications": {
+      "Processor": "Intel Core i6",
+      "RAM": "12GB",
+      "Storage": "1024GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "7 hours battery life"
+    }
+  },
+  {
+    "title": "Asus ProArt StudioBook 16",
+    "description": "This is a high-performance laptop model 32, perfect for work and gaming.",
+    "quantity": 132,
+    "sold": 64,
+    "price": 2100,
+    "priceAfterDiscount": 1890,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop32_1.jpg",
+        "publicId": "laptop32_1"
+      },
+      {
+        "url": "https://example.com/images/laptop32_2.jpg",
+        "publicId": "laptop32_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2afc9d10dee7ca8b4bc8",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 96,
+    "specifications": {
+      "Processor": "Intel Core i7",
+      "RAM": "16GB",
+      "Storage": "256GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "8 hours battery life"
+    }
+  },
+  {
+    "title": "HP Omen 16",
+    "description": "This is a high-performance laptop model 33, perfect for work and gaming.",
+    "quantity": 133,
+    "sold": 66,
+    "price": 2150,
+    "priceAfterDiscount": 1935,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop33_1.jpg",
+        "publicId": "laptop33_1"
+      },
+      {
+        "url": "https://example.com/images/laptop33_2.jpg",
+        "publicId": "laptop33_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b300fea54abd4b34f86",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 99,
+    "specifications": {
+      "Processor": "Intel Core i8",
+      "RAM": "8GB",
+      "Storage": "512GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "9 hours battery life"
+    }
+  },
+  {
+    "title": "Lenovo Legion 5 Pro",
+    "description": "This is a high-performance laptop model 34, perfect for work and gaming.",
+    "quantity": 134,
+    "sold": 68,
+    "price": 2200,
+    "priceAfterDiscount": 1980,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop34_1.jpg",
+        "publicId": "laptop34_1"
+      },
+      {
+        "url": "https://example.com/images/laptop34_2.jpg",
+        "publicId": "laptop34_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2af29d10dee7ca8b4bc6",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 102,
+    "specifications": {
+      "Processor": "Intel Core i9",
+      "RAM": "12GB",
+      "Storage": "768GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "10 hours battery life"
+    }
+  },
+  {
+    "title": "Samsung Galaxy Book3 Ultra",
+    "description": "This is a high-performance laptop model 35, perfect for work and gaming.",
+    "quantity": 135,
+    "sold": 70,
+    "price": 2250,
+    "priceAfterDiscount": 2025,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop35_1.jpg",
+        "publicId": "laptop35_1"
+      },
+      {
+        "url": "https://example.com/images/laptop35_2.jpg",
+        "publicId": "laptop35_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b8598ae08824ff13e3b",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 105,
+    "specifications": {
+      "Processor": "Intel Core i5",
+      "RAM": "16GB",
+      "Storage": "1024GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "11 hours battery life"
+    }
+  },
+  {
+    "title": "Alienware x17 R2",
+    "description": "This is a high-performance laptop model 36, perfect for work and gaming.",
+    "quantity": 136,
+    "sold": 72,
+    "price": 2300,
+    "priceAfterDiscount": 2070,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop36_1.jpg",
+        "publicId": "laptop36_1"
+      },
+      {
+        "url": "https://example.com/images/laptop36_2.jpg",
+        "publicId": "laptop36_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2bbf98ae08824ff13e41",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 108,
+    "specifications": {
+      "Processor": "Intel Core i6",
+      "RAM": "8GB",
+      "Storage": "256GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "12 hours battery life"
+    }
+  },
+  {
+    "title": "Asus ExpertBook B9",
+    "description": "This is a high-performance laptop model 37, perfect for work and gaming.",
+    "quantity": 137,
+    "sold": 74,
+    "price": 2350,
+    "priceAfterDiscount": 2115,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop37_1.jpg",
+        "publicId": "laptop37_1"
+      },
+      {
+        "url": "https://example.com/images/laptop37_2.jpg",
+        "publicId": "laptop37_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2afc9d10dee7ca8b4bc8",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 111,
+    "specifications": {
+      "Processor": "Intel Core i7",
+      "RAM": "12GB",
+      "Storage": "512GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "13 hours battery life"
+    }
+  },
+  {
+    "title": "Acer Chromebook Spin 713",
+    "description": "This is a high-performance laptop model 38, perfect for work and gaming.",
+    "quantity": 138,
+    "sold": 76,
+    "price": 2400,
+    "priceAfterDiscount": 2160,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop38_1.jpg",
+        "publicId": "laptop38_1"
+      },
+      {
+        "url": "https://example.com/images/laptop38_2.jpg",
+        "publicId": "laptop38_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b089d10dee7ca8b4bca",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 114,
+    "specifications": {
+      "Processor": "Intel Core i8",
+      "RAM": "16GB",
+      "Storage": "768GB SSD",
+      "Display": "15 inch Full HD",
+      "Battery": "14 hours battery life"
+    }
+  },
+  {
+    "title": "Microsoft Surface Go 3",
+    "description": "This is a high-performance laptop model 39, perfect for work and gaming.",
+    "quantity": 139,
+    "sold": 78,
+    "price": 2450,
+    "priceAfterDiscount": 2205,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop39_1.jpg",
+        "publicId": "laptop39_1"
+      },
+      {
+        "url": "https://example.com/images/laptop39_2.jpg",
+        "publicId": "laptop39_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b570fea54abd4b34f89",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 117,
+    "specifications": {
+      "Processor": "Intel Core i9",
+      "RAM": "8GB",
+      "Storage": "1024GB SSD",
+      "Display": "13 inch Full HD",
+      "Battery": "15 hours battery life"
+    }
+  },
+  {
+    "title": "HP ZBook Studio G8",
+    "description": "This is a high-performance laptop model 40, perfect for work and gaming.",
+    "quantity": 140,
+    "sold": 80,
+    "price": 2500,
+    "priceAfterDiscount": 2250,
+    "colors": [
+      "Black",
+      "Silver",
+      "Gray"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/laptop40_1.jpg",
+        "publicId": "laptop40_1"
+      },
+      {
+        "url": "https://example.com/images/laptop40_2.jpg",
+        "publicId": "laptop40_2"
+      }
+    ],
+    "category": "673b28bfc2ac4112b7d8aeba",
+    "brand": "673b2b300fea54abd4b34f86",
+    "ratingsAverage": 3.5,
+    "ratingsQuantity": 120,
+    "specifications": {
+      "Processor": "Intel Core i5",
+      "RAM": "12GB",
+      "Storage": "256GB SSD",
+      "Display": "14 inch Full HD",
+      "Battery": "6 hours battery life"
+    }
+  }
+]

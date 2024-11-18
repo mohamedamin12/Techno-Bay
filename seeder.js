@@ -8,7 +8,7 @@ connectToDB();
 
 
 // Read data
-const products = JSON.parse(fs.readFileSync('./utils/dummyData/products.json'));
+const products = JSON.parse(fs.readFileSync('./utils/dummyData/phones.json'));
 
 // Insert data into DB
 const insertData = async () => {

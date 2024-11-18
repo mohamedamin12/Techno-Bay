@@ -12,7 +12,7 @@ exports.createBrandValidator = [
     .trim()
     .notEmpty()
     .withMessage("Brand name is required")
-    .isLength({ min: 3, max: 32 })
+    .isLength({ min: 2, max: 32 })
     .withMessage("Brand name should be between 3 and 32 characters long"),
     validatorMiddleware,
 ];
