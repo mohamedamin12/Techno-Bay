@@ -1,7 +1,8 @@
-const path = require("path");
 const multer = require("multer");
+const path = require("path");
 
 //* Photo Storage
+
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, path.join(__dirname, "../images"));
@@ -23,11 +24,12 @@ const upload = multer({
   },
   fileFilter: function (req, file, cb) {
     if (file.mimetype.startsWith("image")) {
-      cb(null, true);
+      cb(null, true); 
     } else {
-      cb({ message: "Unsupported file format" }, false);
+      cb({ message: "Unsupported file format" }, false); 
     }
   },
 });
+
 
 module.exports = upload;
