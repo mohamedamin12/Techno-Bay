@@ -32,14 +32,21 @@ Techno-Bay is an e-commerce platform designed to facilitate online shopping. Thi
 3. Install dependencies:
    `npm install`
  4. Create a `.env` file and configure the following variables:
-```PORT=3000
+```
+PORT=3000
 MONGO_URI=your_mongodb_connection_string
 CLOUDINARY_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key  
+STRIPE_SECRET_KEY=your_stripe_secret_key
+```
+5. Start the server:
+   `npm run start:dev`
+6. Access the API at `http://localhost:7000.`.
 
+## API Documentation 
+The API documentation is available at the following URL: https://documenter.getpostman.com/view/34351164/2sAY547JqM
 
 
 
