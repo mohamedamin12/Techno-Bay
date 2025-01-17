@@ -28,31 +28,20 @@ Techno-Bay is an e-commerce platform designed to facilitate online shopping. Thi
 1. Clone the repository:
    `git clone https://github.com/mohamedamin12/Techno-Bay.git`
 2. Navigate to the project folder:
-   ```cd Techno-Bay
+   `cd Techno-Bay`
+3. Install dependencies:
+   `npm install`
+ 4. Create a `.env` file and configure the following variables:
+```PORT=3000
+MONGO_URI=your_mongodb_connection_string
+CLOUDINARY_NAME=your_cloudinary_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+JWT_SECRET=your_jwt_secret
+STRIPE_SECRET_KEY=your_stripe_secret_key  
 
 
 
-   ## إعدادات البيئة (Environment Variables)
 
-```env
-DB_HOST =
-DB_PORT =
-DB_NAME =
-DB_USERNAME =
-DB_PASSWORD =
 
-jwtSecret =
-
-CLOUDINARY_URL =
-CLOUDINARY_CLOUD_NAME =
-CLOUDINARY_API_KEY =
-CLOUDINARY_API_SECRET =
-
-# NodeMailer - Email settings
-# EMAIL_HOST=smtp.ethereal.email
-# EMAIL_PORT=587
-EMAIL_USER =
-EMAIL_PASSWORD =
-
-COOKIE_SECRET_KEY =
 
