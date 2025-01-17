@@ -26,4 +26,6 @@ Techno-Bay is an e-commerce platform designed to facilitate online shopping. Thi
 
 ## Steps
 1. Clone the repository:
-   git clone https://github.com/mohamedamin12/Techno-Bay.git
+   `git clone https://github.com/mohamedamin12/Techno-Bay.git`
+2. Navigate to the project folder:
+   cd Techno-Bay
