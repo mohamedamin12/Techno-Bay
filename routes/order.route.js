@@ -6,7 +6,7 @@ const {
   checkoutSession
 } = require('../controllers/order.controller');
 
-const authControllers = require('../controllers/auth.controller');
+const { allowedTo, protect } = require('../middlewares/auth.middleware');
 
 
 router.use(authControllers.protect);
@@ -18,7 +18,7 @@ router.get(
 
 router.route('/:cartId').post(createCashOrder);
 
-router.use(authControllers.protect , authControllers.allowedTo('admin' , 'manager'))
+router.use(protect , allowedTo('admin' , 'manager'))
 
 router.put(
   '/:id/pay',

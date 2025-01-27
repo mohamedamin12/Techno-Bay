@@ -24,9 +24,9 @@ const {
   updateLoggedUserValidator,
 } = require("../utils/validation/userValidator");
 
-const authControllers = require("../controllers/auth.controller");
+const { allowedTo, protect } = require('../middlewares/auth.middleware');
 
-router.use(authControllers.protect);
+router.use(protect);
 router.get("/get-me", getLoggedUserData, getUser);
 router.put("/update-me", updateLoggedUserValidator, updateLoggedUserData);
 router.put("/change-my-password", updateLoggedUserPassword);
@@ -34,8 +34,8 @@ router.delete("/delete-me", deleteLoggedUserData);
 router.post("/uploaded-profile-photo",upload.single("image"), uploadProfilePhoto);
 
 router.use(
-  authControllers.protect,
-  authControllers.allowedTo("admin", "manager")
+  protect,
+  allowedTo("admin", "manager")
 );
 
 router

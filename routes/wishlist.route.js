@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-const authController = require("../controllers/auth.controller");
+const { allowedTo, protect } = require('../middlewares/auth.middleware');
 
 const {
   addProductToWishlist,
@@ -8,7 +8,7 @@ const {
   getLoggedUserWishlist,
 } = require("../controllers/wishlist.controller");
 
-router.use(authController.protect, authController.allowedTo("user"));
+router.use(protect, allowedTo("user"));
 
 router.route("/").post(addProductToWishlist).get(getLoggedUserWishlist);
 

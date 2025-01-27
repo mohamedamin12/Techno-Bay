@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const brandController = require("../controllers/brands.controller");
+const { allowedTo, protect } = require('../middlewares/auth.middleware');
 
 
 const {
@@ -11,13 +12,13 @@ const {
 
 router
   .route("/")
-  .get( brandController.getAllBrands)
-  .post(createBrandValidator, brandController.createBrand);
+  .get(brandController.getAllBrands)
+  .post(protect, allowedTo('admin', 'manager'), createBrandValidator, brandController.createBrand);
 
 router
   .route("/:id")
   .get(getBrandValidator, brandController.getBrand)
-  .put(updateBrandValidator, brandController.updateBrand)
-  .delete(deleteBrandValidator, brandController.deleteBrand);
+  .put(protect, allowedTo('admin', 'manager'), updateBrandValidator, brandController.updateBrand)
+  .delete(protect, allowedTo('admin', 'manager'), deleteBrandValidator, brandController.deleteBrand);
 
 module.exports = router;

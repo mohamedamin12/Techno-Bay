@@ -16,6 +16,9 @@ const {
   deleteProduct,
 } = require("../controllers/products.controller");
 
+const { allowedTo, protect } = require('../middlewares/auth.middleware');
+
+
 const reviewsRoute = require('./review.route');
 
 router.use('/:productId/reviews', reviewsRoute);
@@ -23,11 +26,11 @@ router.use('/:productId/reviews', reviewsRoute);
 router
   .route("/")
   .get(getProducts)
-  .post(upload.array("images" , 5), createProductValidator, createProduct);
+  .post(protect, allowedTo("admin", "manager"), upload.array("images", 5), createProductValidator, createProduct);
 router
   .route("/:id")
   .get(getProductValidator, getProduct)
-  .put(updateProductValidator, updateProduct)
-  .delete(deleteProductValidator, deleteProduct);
+  .put(protect, allowedTo("admin", "manager"), updateProductValidator, updateProduct)
+  .delete(protect, allowedTo("admin", "manager"), deleteProductValidator, deleteProduct);
 
 module.exports = router;

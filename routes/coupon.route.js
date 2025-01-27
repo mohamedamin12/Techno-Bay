@@ -8,11 +8,11 @@ const {
   deleteCoupon,
 } = require('../controllers/coupon.controller');
 
-const authService = require('../controllers/auth.controller');
+const { allowedTo, protect } = require('../middlewares/auth.middleware');
 
 const router = express.Router();
 
-router.use(authService.protect, authService.allowedTo('admin', 'manager'));
+router.use(protect, allowedTo('admin', 'manager'));
 
 router.route('/').get(getCoupons).post(createCoupon);
 router.route('/:id').get(getCoupon).put(updateCoupon).delete(deleteCoupon);

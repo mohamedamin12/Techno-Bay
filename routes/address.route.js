@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const authControllers= require('../controllers/auth.controller');
+const authMiddleware= require('../middlewares/auth.middleware');
 
 const {
   addAddress,
@@ -9,7 +9,7 @@ const {
 } = require('../controllers/address.controller');
 
 
-router.use(authControllers.protect, authControllers.allowedTo('user'));
+router.use(authMiddleware.protect, authMiddleware.protect('user') );
 
 router.route('/').post(addAddress).get(getLoggedUserAddresses);
 

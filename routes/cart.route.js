@@ -9,11 +9,11 @@ const {
   applyCoupon,
 } = require('../controllers/cart.controller');
 
-const authControllers = require('../controllers/auth.controller');
+const { allowedTo, protect } = require('../middlewares/auth.middleware');
 
 
 
-router.use(authControllers.protect, authControllers.allowedTo('user'));
+router.use(protect, allowedTo('user'));
 router
   .route('/')
   .post(addProductToCart)

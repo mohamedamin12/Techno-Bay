@@ -17,14 +17,14 @@ const {
   setProductIdAndUserIdToBody
 } = require('../controllers/review.controller');
 
-const authControllers = require('../controllers/auth.controller');
+const { allowedTo, protect } = require('../middlewares/auth.middleware');
 
 router
   .route('/')
   .get(getReviews)
   .post(
-    authControllers.protect,
-    authControllers.allowedTo('user'),
+    protect,
+    allowedTo('user'),
     setProductIdAndUserIdToBody,
     createReviewValidator,
     createReview
@@ -34,15 +34,15 @@ router
   .route('/:id')
   .get(getReviewValidator,getReview)
   .put(
-    authControllers.protect,
-    authControllers.allowedTo('user'),
+    protect,
+    allowedTo('user'),
     updateReviewValidator,
     updateReview
   )
 
   .delete(
-    authControllers.protect,
-    authControllers.allowedTo('user', 'manager', 'admin'),
+    protect,
+    allowedTo('user', 'admin'),
     deleteReviewValidator,
     deleteReview
   );
