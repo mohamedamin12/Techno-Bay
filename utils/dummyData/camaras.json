@@ -1,0 +1,28 @@
+[
+  {
+    "title": "GoPro Hero 11",
+    "description": "A high-performance camera with excellent features and sleek design. The GoPro Hero 11 is perfect for enthusiasts and professionals alike.",
+    "quantity": 17,
+    "sold": 7,
+    "price": 850,
+    "priceAfterDiscount": 795,
+    "colors": ["Black", "Silver", "White"],
+    "images": [
+      {
+        "url": "https://example.com/images/gopro_hero_11.jpg",
+        "publicId": "gopro_hero_11"
+      }
+    ],
+    "category": "673b529f081e6620d65ae0c1",
+    "brand": "673b537e6352973c753e71d9",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 31,
+    "specifications": {
+      "Type": "camera",
+      "Resolution": "27MP",
+      "Battery": null,
+      "Screen": null,
+      "Lens": "Standard Zoom"
+    }
+  }
+]
