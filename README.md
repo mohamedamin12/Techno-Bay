@@ -47,9 +47,3 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 
 ## API Documentation 
 The API documentation is available at the following URL: https://documenter.getpostman.com/view/34351164/2sAY547JqM
-
-
-
-
-
-# Techno-Bay
